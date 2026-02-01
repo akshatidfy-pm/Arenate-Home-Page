@@ -110,7 +110,7 @@ export const ProblemSection: React.FC = () => {
                     initial={{ opacity: 0, x: 50 }}
                     whileInView={{ opacity: 1, x: 0 }}
                     whileHover={{ scale: 1.2, x: 10, backgroundColor: "rgba(248, 250, 252, 0.9)" }}
-                    transition={{ duration: 0.2 }}
+                    transition={{ duration: 0.1 }}
                     viewport={{ once: true }}
                     className="w-full flex items-center p-3 rounded-2xl cursor-pointer hover:shadow-md border border-transparent hover:border-slate-200 transition-all"
                   >
