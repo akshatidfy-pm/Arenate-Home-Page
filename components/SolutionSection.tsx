@@ -76,7 +76,7 @@ export const SolutionSection: React.FC = () => {
             // Distribute items in a circle
             const angleDeg = (index * 360) / totalItems - 90; // Start from top
             const angleRad = (angleDeg * Math.PI) / 180;
-            const radius = 185; // Radius
+            const radius = 200; // Radius
             
             const x = Math.cos(angleRad) * radius;
             const y = Math.sin(angleRad) * radius;
