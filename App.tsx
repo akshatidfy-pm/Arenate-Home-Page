@@ -7,13 +7,14 @@ import { TwoPaths } from './components/TwoPaths';
 import { Pricing } from './components/Pricing';
 import { Footer } from './components/Footer';
 import { AboutSection } from './components/AboutSection';
+import { Chatbot } from './components/Chatbot';
 
 const App: React.FC = () => {
   return (
     <div className="font-sans text-slate-900 bg-slate-50 min-h-screen selection:bg-arenate-green selection:text-white">
       <Navbar />
       
-      <main>
+      <main className="relative">
         <Hero />
         <ProblemSection />
         <SolutionSection />
@@ -23,6 +24,7 @@ const App: React.FC = () => {
       </main>
 
       <Footer />
+      <Chatbot />
     </div>
   );
 };
