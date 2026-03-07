@@ -109,7 +109,7 @@ export const Chatbot: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const ai = new GoogleGenAI({ apiKey: import.meta.env.API_KEY || '' });
+      const ai = new GoogleGenAI({ apiKey: import.meta.env.VITE_GEMINI_API_KEY || '' });
       
       const history = messages.map(m => ({
         role: m.role,
